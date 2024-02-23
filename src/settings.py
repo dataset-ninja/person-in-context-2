@@ -13,7 +13,7 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "Person in Context"
+PROJECT_NAME: str = "Person in Context_test"
 PROJECT_NAME_FULL: str = "Person in Context Dataset"
 HIDE_DATASET = True  # set False when 100% sure about repo quality
 
@@ -38,7 +38,7 @@ if RELEASE_DATE is None:
 HOMEPAGE_URL: str = "https://picdataset.com/challenge/task/download/"
 # e.g. "https://some.com/dataset/homepage"
 
-PREVIEW_IMAGE_ID: int = 14111170
+PREVIEW_IMAGE_ID: int = 14134352
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
 GITHUB_URL: str = "https://github.com/dataset-ninja/person-in-context"

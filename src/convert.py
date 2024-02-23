@@ -82,7 +82,7 @@ def convert_and_upload_supervisely_project(
     test_path = "/home/alex/DATASETS/TODO/PIC/PIC_2.0/image/test"
     images_folder = "image"
     anns_folder = "semantic"
-    batch_size = 30
+    batch_size = 1
     labels_path = "/home/alex/DATASETS/TODO/PIC/PIC_2.0/categories_list/label_categories.json"
     # relation_categories_path = (
     #     "/home/alex/DATASETS/TODO/PIC/PIC_2.0/categories_list/relation_categories.json"
@@ -90,7 +90,9 @@ def convert_and_upload_supervisely_project(
     # relations_train_path = "/home/alex/DATASETS/TODO/PIC/PIC_2.0/relations_train.json"
     # relations_val_path = "/home/alex/DATASETS/TODO/PIC/PIC_2.0/relations_val.json"
 
-    ds_name_to_pathes = {"train": train_path, "val": val_path, "test": test_path}
+    ds_name_to_pathes = {"train": train_path}
+
+    # ds_name_to_pathes = {"train": train_path, "val": val_path, "test": test_path}
 
     def create_ann(image_path):
         labels = []
@@ -155,6 +157,7 @@ def convert_and_upload_supervisely_project(
         progress = sly.Progress("Create dataset {}".format(ds_name), len(images_names))
 
         for images_names_batch in sly.batched(images_names, batch_size=batch_size):
+            print(images_names_batch)
             img_pathes_batch = [
                 os.path.join(images_path, im_name) for im_name in images_names_batch
             ]
