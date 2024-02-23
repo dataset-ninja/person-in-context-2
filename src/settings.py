@@ -14,8 +14,8 @@ from dataset_tools.templates import (
 # * Before uploading to instance #
 ##################################
 PROJECT_NAME: str = "Person in Context"
-PROJECT_NAME_FULL: str = "PIC: Person in Context Dataset"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+PROJECT_NAME_FULL: str = "PIC: Person in Context Dataset v2.0"
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
