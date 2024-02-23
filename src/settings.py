@@ -41,7 +41,7 @@ HOMEPAGE_URL: str = "https://picdataset.com/challenge/task/download/"
 PREVIEW_IMAGE_ID: int = 14134352
 # This should be filled AFTER uploading images to instance, just ID of any image.
 
-GITHUB_URL: str = "https://github.com/dataset-ninja/person-in-context"
+GITHUB_URL: str = "https://github.com/dataset-ninja/person-in-context-2"
 # URL to GitHub repo on dataset ninja (e.g. "https://github.com/dataset-ninja/some-dataset")
 
 ##################################
