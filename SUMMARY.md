@@ -6,4 +6,4 @@ Images in the Person in Context dataset have pixel-level instance segmentation a
 
 Here is a visualized example for randomly selected sample classes:
 
-[Dataset classes](https://github.com/dataset-ninja/person-in-context/raw/main/visualizations/classes_preview.webm)
+[Dataset classes](https://github.com/dataset-ninja/person-in-context-2/raw/main/visualizations/classes_preview.webm)
