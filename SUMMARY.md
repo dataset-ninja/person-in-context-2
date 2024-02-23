@@ -1,4 +1,4 @@
-**Person in Context Dataset** is a dataset for instance segmentation, semantic segmentation, and object detection tasks. It is applicable or relevant across various domains. 
+**PIC: Person in Context Dataset** is a dataset for instance segmentation, semantic segmentation, and object detection tasks. It is applicable or relevant across various domains. 
 
 The dataset consists of 17605 images with 191150 labeled objects belonging to 144 different classes including *human*, *table*, *bag*, and other: *hat*, *ground*, *chair*, *door*, *painting/poster*, *sofa*, *building*, *shelf*, *window*, *grass*, *cabinet*, *vegetation*, *floor*, *guardrail*, *ball*, *book*, *curtain*, *cup*, *phone*, *bottle*, *toy*, *tree*, *plant*, *stick*, *instrument*, and 116 more.
 
