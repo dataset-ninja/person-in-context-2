@@ -15,4 +15,4 @@ restaurant, seaside, snowfield, etc. For each entity falling into predefined cat
 
 <img src="https://github.com/dataset-ninja/person-in-context/assets/120389559/c2c04555-35fb-46e1-94f6-45f4b0a74509" alt="image" width="800">
 
-<span style="font-size: smaller; font-style: italic;">An example original image and entity segmentation.</span>
+<span style="font-size: smaller; font-style: italic;">An example of the original image and entity segmentation.</span>
