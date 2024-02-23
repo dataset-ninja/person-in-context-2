@@ -13,6 +13,6 @@ Data collection was done with three steps:
 The authors first annotate 141 kinds of things and stuff in the images. The entity categories cover a wide range of indoor and outdoor scenes, including office,
 restaurant, seaside, snowfield, etc. For each entity falling into predefined categories, they label it with its class and pixel-level mask segment. The disconnected regions of stuff are viewed as different entities. 
 
-<img src="https://github.com/dataset-ninja/person-in-context/assets/120389559/e7dc8642-71d3-473f-bafe-8d8435c30a4b" alt="image" width="800">
+<img src="https://github.com/dataset-ninja/person-in-context/assets/120389559/c2c04555-35fb-46e1-94f6-45f4b0a74509" alt="image" width="800">
 
 <span style="font-size: smaller; font-style: italic;">An example original image and entity segmentation.</span>
