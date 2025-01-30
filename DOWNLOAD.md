@@ -1,6 +1,6 @@
 Dataset **Person in Context** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/owz3lely2oinaar33ftpw/person-in-context-DatasetNinja.tar?rlkey=vst4sraxp9g8raodezdh4idmc&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzM1NTJfUGVyc29uIGluIENvbnRleHQvcGVyc29uLWluLWNvbnRleHQtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAibGVBbU9EcXBEWTFxd29tbzd6SWhyTDdKSGFjSThGQ0oyV00ySUdNZ3JVRT0ifQ==)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
